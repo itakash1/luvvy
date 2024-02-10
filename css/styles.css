@@ -47,3 +47,29 @@ body, html{
 .text-caption h4 {
   color: #fff;
 }
+
+.row{
+  background-color: #f9e8fc;
+}
+.row div{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.lead{
+  margin-bottom: 0px;
+}
+
+.row button{
+  background-color: #da6ed1;
+  border: #da6ed1;
+  transition: 0.3s;
+}
+
+.row button:hover{
+  transform: scale(1.05);
+  background-color: #f093e8;
+  box-shadow: 0px 0px 20px #f093e8;
+}
+

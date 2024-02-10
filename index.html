@@ -43,12 +43,13 @@
   </header>
 
   <body>
-    <div class="container-fluid" id="box-carousel">
+    <div class="container-fluid" id="box-carousel" data-bs-touch="true" >
       <div class="carousel slide" data-ride="carousel" id="slides"> 
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#slides" data-bs-slide-to="1" class=""></button>
       </div>
+
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="img-bc-carousel" style="background: url(source/carousel-bc.png); height: 350px;">
@@ -59,6 +60,7 @@
             </div>
           </div>
         </div>
+
         <div class="carousel-item">
           <div class="img-bc-carousel" style="background: url(https://i.redd.it/0y2eb9annv3b1.jpg); height: 350px;">
             <div class="text-caption">
@@ -67,6 +69,31 @@
               <button type="button" class="btn btn-outline-light btn-lg">Sign In ♡</button>
             </div>
           </div>
+        </div>
+      </div>
+      <div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slides" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">prev</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">next</span>
+        </button>
+      </div>
+      
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-10 col-xl-10">
+          <p class="lead">If you need our help, have questions, find flaws in the site, or encounter scammers. 
+                          Our support team will be happy to help you as soon as possible.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
+          <button class="btn btn-lg btn-info" type="button">Online Support</button>
         </div>
       </div>
     </div>
