@@ -1,110 +1,173 @@
 <!doctype html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet">
     <title>Let's Go!</title>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </head>
 
-  <header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</head>
+
+<header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-      <div class="container-fluid">
-        <a href="index.html" class="navbar-brand">
-          <img src="/source/luvvy-brand.png" title="Luvvy">
-        </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-conrols="menu"> 
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="#" class="nav-link active">About Luvvy</a>  
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Contacts</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Donate</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link disabled">Soon...</a>
-            </li>
-          </ul>
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="/source/luvvy-brand.png" title="Luvvy">
+            </a>
         </div>
-      </div>
     </nav>
-  </header>
+</header>
 
-  <body>
-    <div class="container-fluid" id="box-carousel" data-bs-touch="true" >
-      <div class="carousel slide" data-ride="carousel" id="slides"> 
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#slides" data-bs-slide-to="1" class=""></button>
-      </div>
-
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="img-bc-carousel" style="background: url(source/carousel-bc.png); height: 350px;">
-            <div class="text-caption">
-              <h1>Love is near</h1>
-              <h4>Meet her today</h4>
-              <button type="button" class="btn btn-outline-light btn-lg">Sign In ♡</button>
+<body>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel slide" data-ride="carousel" id="slides">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="img-bc-carousel" style="background: url(source/1.jpg); height: 350px;">
+                    <div class="text-caption">
+                        <h1>Не переставай улыбаться!</h1>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="carousel-item">
-          <div class="img-bc-carousel" style="background: url(https://i.redd.it/0y2eb9annv3b1.jpg); height: 350px;">
-            <div class="text-caption">
-              <h1>Love is near</h1>
-              <h4>Meet her today</h4>
-              <button type="button" class="btn btn-outline-light btn-lg">Sign In ♡</button>
+            <div class="carousel-item">
+                <div class="img-bc-carousel" style="background: url(source/2.jpg); height: 350px;">
+                    <div class="text-caption">
+                        <h1>Всегда будь счастлива!</h1>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <div class="carousel-item">
+                <div class="img-bc-carousel" style="background: url(source/3.jpg); height: 350px;">
+                    <div class="text-caption">
+                        <h1>Никогда не плачь!</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="img-bc-carousel" style="background: url(source/4.jpg); height: 350px;">
+                    <div class="text-caption">
+                        <h1>Забудь слово грусть!</h1>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div>
+    </div>
+
+    <div>
         <button class="carousel-control-prev" type="button" data-bs-target="#slides" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">prev</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">prev</span>
         </button>
 
         <button class="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">next</span>
+        </button>
+    </div>
+</div>
+
+
+<div class="container-fluid tgc-void">
+    <div class="row">
+      <div class="col-2">
+        <button onclick="window.location.href = 'https://t.me/lycoris_stories'" class="btn btn-lg btn-info"
+                type="button">♡
         </button>
       </div>
-      
-    </div>
-
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-10 col-xl-10">
-          <p class="lead">If you need our help, have questions, find flaws in the site, or encounter scammers. 
-                          Our support team will be happy to help you as soon as possible.</p>
+        <div class="col-10">
+            <p class="lead">Жизнь стала легче, когда я захожу в свой любимый тг канал</p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
-          <button class="btn btn-lg btn-info" type="button">Online Support</button>
-        </div>
-      </div>
     </div>
-  </body>
+</div>
 
-  <div id="notes-delete" style="padding-top: 20%; font-weight: 700;">
-    <ul>
-      <o>Заметки на будущее: </o>
-      <li>Сделать управление стрелками - для телефонов и планшетов</li>
-      <li>Сделать управление кнопками для пк и планшетов</li>
-    </ul>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+            <img src="source/pic1.jpg">
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+            <div>
+                <p>
+                    <b>Воспоминания</b> — это моменты, которые
+                    плотно засели в моей голове и будут оставаться
+                    со мной до самого конца. Первая встреча, улыбка,
+                    фотография.
+                </p>
+            </div>
+            <div class="btn-style">
+                <button onclick="window.location.href = 'https://music.yandex.ru/album/799417/track/52437511?utm_source=desktop&utm_medium=copy_link'"
+                        class="btn btn-primary btn-md music-btn" type="button">40...
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="block-delimiter tgc-void fix-pd">
+            <div>
+                <h1>Чувство бабочек в животе</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row fix-pd">
+        <div class="col-8 col-md-12 col-lg-6 col-xl-5">
+            <p>
+                <b>Кто бы мог подумать...</b><br><br>
+                Наша встреча стало быть не случайна,
+                ты смогла оживить не только бабочек
+                в моем животе, но и меня, мои эмоции,
+                мою веру в прекрасное... в любовь.
+            </p>
+        </div>
+        <div class="col-4 col-md-12 col-lg-6 col-xl-7">
+            <img src="source/pic2.jpg">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+  <div class="row fix-pd fix-pd-bt">
+    <div class="col-4 col-md-12 col-lg-6 col-xl-7">
+      <img src="source/pic3.jpg">
+    </div>
+    <div class="col-8 col-md-12 col-lg-6 col-xl-5">
+      <p>
+        <b>Хочу к тебе...</b><br><br>
+        Каждый раз после нашего прощания,
+        я хочу вновь оказаться рядом, почувствовать
+        твое тепло, заботу, ласку. Ты - Мой Мир.
+      </p>
+    </div>
   </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="block-delimiter tgc-void fix-pd fix-sm">
+            <div>
+                <div class="col-7 col-md-12 col-lg-6 col-xl-7">
+                    <h1>Так давай будем вместе всегда!</h1>
+                </div>
+                <div class="col-5 col-md-12 col-lg-6 col-xl-5">
+                    <button onclick="window.location.href = 'https://t.me/itakash11'" type="button" class="btn btn-outline-light btn-lg">Принять ♡</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 </html>
-  
